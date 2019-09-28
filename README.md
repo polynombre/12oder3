@@ -18,6 +18,7 @@ Das großflächige Blinken kann bei manchen Menschen epileptische Anfälle ausl�
 
 
 # Funktionsweise:
+0) Alle Dateien herunterladen und in einen Ordner entpacken.
 1) Fragen, Antwortmöglichkeiten und Nummer der richtigen Antwort in `fragen.txt` schreiben und speichern. Jedes Element auf eine Zeile (wie im Beispiel).
 
 2) Wenn python3  verfügbar ist, dann auf der Kommandozeile ausführen:
@@ -46,6 +47,7 @@ Dies fügt die Zeilen aus `fragen.txt` wie sie sind in die Platzhalter in `123Te
 
 # short English description
 * Programm to generate websites from a template to play the game "1 2 oder 3"
+* download all filles into one folder
 * fill `fragen.txt` with questions, 3 answer options and number of correct answer as in example
 * run  `python3 generateWebsites.py` or `generateWebsites.exe` to generate websites
 * open `start.html` in a browser, use elements (incl. menu) or keyboard to navigate and start counter
