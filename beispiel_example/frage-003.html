@@ -1,0 +1,113 @@
+<html>
+  <head>
+    <title></title>
+    <meta content="">
+    <style></style>
+    <link type="text/css" href="123.css" rel="stylesheet" media="screen" />
+    <script type="text/javascript" src="123.js"></script>
+  </head>
+
+
+
+
+
+  
+  <body style="display:none;" onload="initSite()">
+
+ <table style="" width="900">
+   <tbody>
+     <tr>
+       <td class="navrow">
+         <span style="float:left;"><a id="linkPrev" href="frage-002.html"> <img src="left.png" height="20px"></a></span>&nbsp;
+	 <div class="dropdown">
+	   <div class="dropbtn"><img src="menue.png" height="15px" width="15px"></div>
+	   <div class="dropdown-content">
+	     <span style="display:block">Zoom: &nbsp;<button class="zoombutton" onclick="modifySize(1)">+</button> &nbsp; <button class="zoombutton" onclick="modifySize(-1)">&ndash;</button></span>
+	     
+	      <span class="timeConfig"><form class="timeInput">
+                    <label for="time">Time: </label>  
+                    <input type="text" id="timeInput" name="time" style="text-align:center; width:3em;"></form> <button class="zoombutton" onclick="modifyTime()">Ok</button> </span> 
+	   </div>
+	 </div>
+	 <span style="float:right;"><a id="linkNext" href="frage-004.html"> <img src="right.png" height="20px"></a>  </span>  
+       </td>
+     </tr>
+  <tr>
+ 
+  <td class="mainrows toprow">
+ <div class="fragebox" style="text-align: center;" id="fragebox">Wie lautet der volle Name von Karl May?</div>
+<!-- <form>
+   <input type="button" onclick="blinkAndTick()" value="Go!" />
+ </form>
+-->
+<p> <div onclick="blinkAndTick()" class="timer">Zeit:<br><span id="counter">20</span>
+ </div></p>
+ 
+  </td>
+</tr>
+
+<tr>
+<td  class="mainrows middlerow">
+<table class="middleTable">
+<tbody>
+<tr>
+  <td class="leftspace"></td>
+  <td class="middleColumn answerOption redOption">
+    <img class="numberMiddle" src="Number1_nG.png"><br>
+    Karl Friedrich May
+  </td>
+    <td class="middlespace"></td>
+  <td class="middleColumn answerOption greenOption" >
+    <img class="numberMiddle" src="Number2_nG.png"><br>
+   Karl Joseph-Leopold May
+  </td>
+    <td class="middlespace"></td>
+  <td class="middleColumn answerOption blueOption" >
+    <img class="numberMiddle" src="Number3_nG.png"><br>
+   Karl Heinz May
+  </td>
+    <td class="rightspace"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+
+<tr>
+<td class="mainrows bottomrow">
+<table class="bottomTable">
+<tbody>
+<tr>
+  <td class="leftspace"></td>
+  <td id="Red" class="bottomColumn blinkingField blinkRed">
+    <img class="numberBottom" src="Number1_nG.png">
+  </td>
+    <td class="middlespace"></td>
+  <td id="Green" class="bottomColumn blinkingField blinkGreen" >
+    <img class="numberBottom" src="Number2_nG.png">
+  </td>
+    <td class="middlespace"></td>
+  <td id="Blue" class="bottomColumn blinkingField blinkBlue">
+    <img class="numberBottom" src="Number3_nG.png">
+  </td>
+    <td class="rightspace"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+   
+<p id="solution" style="color: white;">1</p>
+    
+
+
+
+
+
+
+
+  </body>
+  <!-- http://buttonoptimizer.com/ -->
+</html>
