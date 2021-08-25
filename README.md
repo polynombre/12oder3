@@ -31,7 +31,7 @@ Alternativ unter Windows:
 
 Dies fügt die Zeilen aus `fragen.txt` wie sie sind in die Platzhalter in `123Template.html` ein und erzeugt für jede Frage eine eigene Webseite.
 
-3) `start.html` in einem Browser öffnen (Chrome oder Firefox)
+3) `start.html` in einem Browser öffnen (Google Chrome oder Firefox, wobei manches unter Umständen nur in Chrome geht)
 4) Bei Bedarf vor dem Spiel im Menü oben links (auf der Seite der ersten Frage - nicht auf der Startseite) die Größe und die Zeit einstellen.
 5) Pfeile oben links und rechts führen zur nächsten oder vorherigen Folie. Klicken auf "Zeit" startet den Countdown. Tastatursteuerung siehen unten.
 
